@@ -1,0 +1,24 @@
+html, body {
+	height: 100%;
+	font-family: 'Open Sans', 'Dosis';
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+[class*="btn-"] a {
+	color: white;
+}
+
+.btn:hover {
+	background: #0DC0C0;
+}
+
+p {
+	color: gray;
+}
