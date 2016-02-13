@@ -91,3 +91,14 @@ strong {
 .pull-right {
 	float: right;
 }
+/*mi utilitie*/
+.bg-sky{
+	background-color: #0dc0c0;
+}
+.bg-dark{
+	background-color: #323A45;
+}
+.pd-2{
+	padding: 2%;
+}
+/* - */
