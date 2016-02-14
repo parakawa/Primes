@@ -34,6 +34,10 @@ header nav a{
 	margin: 3%;
 }
 
+.banner strong{
+	font-size: 50px;
+}
+
 .icons{
 	background-color: white;
 }
@@ -88,4 +92,56 @@ header nav a{
 -moz-transform: rotate(-7deg);
 -ms-transform: rotate(-7deg);
 transform: rotate(-7deg);
+}
+
+.load-more{
+	padding: 1% 2%;
+}
+
+.portfolio{
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 640px) {
+	header h1{
+	margin: 3px 0 0 8px;
+	}
+
+	header nav{
+	margin:0 0 10px 22px;
+	}
+
+	header nav a{
+	font-size: 16px;
+	margin-right: 10px;
+	font-weight: 600;
+	}
+
+	.banner{
+	padding: 100px 50px;
+	}
+
+	.icons .col-sm-4{
+	margin-top: 20px;
+	padding: 0 50px;
+	font-size: 16px;
+	}
+
+	.portfolio nav a{
+	font-size: 0.9em;
+	padding: 3px;
+	}
+
+	.portfolio nav{
+	padding: 0;
+	margin-top: 20px;
+	}
+
+	.portfolio{
+	padding: 10px 0px;
+	}
+
+	.caja img{
+		width: 100%;
+	}
 }
