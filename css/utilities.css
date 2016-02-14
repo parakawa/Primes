@@ -91,7 +91,7 @@ strong {
 .pull-right {
 	float: right;
 }
-/*mi utilitie*/
+/*my utilities*/
 .bg-sky{
 	background-color: #0dc0c0;
 }
@@ -100,5 +100,20 @@ strong {
 }
 .pd-2{
 	padding: 2%;
+}
+.text-dark{
+	color: #525252;
+}
+.pl-10{
+	padding-left: 10%;
+}
+.pr-10{
+	padding-right: 10%;
+}
+.pt-2{
+	padding-top:2%;
+}
+.pb-2{
+	padding-bottom: 2%;
 }
 /* - */
