@@ -8,7 +8,7 @@ header h1{
 	font-weight: 800;
 	}
 header nav{
-	margin-top: 28px;
+	margin-top: 20px;
 }
 
 header nav a{
@@ -44,4 +44,48 @@ header nav a{
 
 .icons p {
 	font-size: 0.8em;
+}
+
+.description {
+	font-size: 12px;
+	background-color: white;
+}
+
+.description i {
+	font-size: 30px;
+	color: #0DC0C0; /*verde*/
+}
+
+.description .col-sm-6 .row {
+	padding: 5%;
+}
+
+.description .col-xs-1{
+	padding-top: 3%;
+}
+
+.portfolio nav{
+	margin-bottom: 25px;
+}
+
+.portfolio a{
+	padding: 12px;
+	font-size: 16px;
+	background-color: white;
+	margin:1px;
+}
+
+.portfolio .caja{
+	background: white;
+	padding: 1%;
+	margin: 2% 0;
+	line-height: 1.5;
+	box-shadow: 6px 5px 32px -6px rgba(0,0,0,0.75);
+}
+
+.portfolio .caja:hover {
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(-7deg);
+-ms-transform: rotate(-7deg);
+transform: rotate(-7deg);
 }
