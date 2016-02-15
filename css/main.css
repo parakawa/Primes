@@ -163,10 +163,7 @@ transform: rotate(-7deg);
 	font-size: 1.3em;
 	background-color: rgba(256, 256, 256, 0.4);
 }
-.city a:hover {
-	color: rgb(244, 244, 244);
-	font-size: 1.4em;
-}
+
 .opaco{
 	width: 100%;
 	background: black;
@@ -232,8 +229,11 @@ transform: rotate(-7deg);
 	margin-top: 5%;
 }
 .customer:hover{
-	height: 150px;
-	width: 150px;
+	-webkit-transform: scale(1.2); 
+	-moz-transform:  scale(1.2); 
+	-o-transform:  scale(1.2); 
+	-ms-transform:  scale(1.2); 
+	transform:  scale(1.2);
 }
 .texto{
 	margin-top: 1.5%;
