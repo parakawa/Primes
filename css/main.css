@@ -20,10 +20,12 @@ header nav a{
 .banner{
 	background-image: url("../img/background/hero.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;
-	padding: 200px 300px;
+	background-repeat: no-repeat;	
 }
+.banner .opaco{
+	padding: 100px 50px;
 
+}
 .btn {
 	padding:2% 3%;
 	border-radius: 0%;
@@ -118,7 +120,7 @@ transform: rotate(-7deg);
 	}
 
 	.banner{
-	padding: 100px 50px;
+	padding: 0px;
 	}
 
 	.icons .col-sm-4{
